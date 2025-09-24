@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: 'Shizoku';
+    src: url('Shizoku.otf') format('truetype');
+  }
+html {
+    scroll-behavior: smooth;
+}
+a{
+    color: #ebebeb;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    color: #ebebeb; 
+}
+.home{
+    height: 110vh;
+    background: url(../img/background.jpg) no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    font-family: 'Shizoku', cursive;
+}
+.menu{
+    display: flex;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 5vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+ }
+.logo{
+    width: 10vw;
+}
+.mn-esq-title{
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+    width: 100%;
+    justify-content: end;
+    height: fit-content;
+}
+.classes{
+    background-color: #7b1e1e;
+}
+.pano-animado{
+    display: flex
+}
+.pano-animado .onda {
+    height: 15vh;
+    width: 100%;
+    background-color: #2a2321;
+}
+.pano-animado .conteudo {
+  width: 100%;
+  background: #7b1e1e;
+}
+.clas-descricao{
+    padding: 0 2vw 2vw 2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.img-desc-classe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-desc-classe img{
+    width: 30%;
+    border-radius: 50%;
+}
+.cont-subclass{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.cont-texto-regra{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    margin: 0 1.5vw;
+    width: 27vw;
+    background-color: #2a2321;
+}
+.subclass{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    margin: 0 1.5vw;
+    width: 27vw;
+    background-color: #2a2321;
+}
+.cont-rank{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    margin: 1.5vw 1.5vw 0 1.5vw;
+    background-color: #2a2321;
+}
+.samurais{
+    padding: 1.5vw;
+}
+.combate{
+    background-color: #7b1e1e;
+}
+.sub-combate{
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+.sub-combate-cont{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    margin: 1.5vw 0 0 0;
+    background-color: #2a2321;
+}
+.sub-cont-titulo{
+    font-size: 2em;
+    text-align: center;
+}
+.regras-descricao{
+    font-size: 1.5em;
+    margin: 0.3em 0;
+}
+.equipamento{
+    background-color: #7b1e1e;
+}
+.sub-equipamento-cont{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    margin: 1.5vw 0 0 0;
+    background-color: #2a2321;
+}
+.sub-equipamento{
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+table{
+    width: 100%;
+}
+th{
+    background: #413937;
+}
+td{
+    background-color: #5d5756;
+    padding: 0.3em;
+}
+.td-dir{
+    text-align: right;
+}

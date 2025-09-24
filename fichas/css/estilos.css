@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  background: linear-gradient(to bottom, #7b1e1e, #2a2321);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.etapa {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.etapa.active {
+  display: flex;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background: #2a2321;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #7b1e1e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 2px solid #2a2321;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.card:hover {
+  border-color: #2a2321;
+}
+
+.card.selecionado {
+  border-color: #ccc;
+  background-color: rgba(42,35,33, 0.5);
+}
+
+.card h3 {
+  margin: 0 0 5px;
+}
+
+.card .descricao {
+  font-size: 0.9rem;
+  color: #e3e3e3;
+  max-height: 100px;
+  overflow-y: auto;
+}

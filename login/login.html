@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="img/image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="img/image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" href="../img/favicon.ico">
+  <link rel="manifest" href="img/site.webmanifest">
+  <title>Login - Shizoku</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Shizoku</h1>
+    <form action="php/login.php" method="POST">
+      <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required type="text" placeholder="Digite seu e-mail" class="imput"/>
+      </div>
+
+      <div>
+        <label for="senha">Senha Secreta</label>
+        <input id="senha" name="senha" required type="password" placeholder="Digite sua senha" class="imput"/>
+      </div>
+
+      <button type="submit">
+        Entrar em Shizoku
+      </button>
+    </form>
+
+    <p class="link-text">Ainda não é um aventureiro? <a href="../cadastro/register.html" class="text-red-400 hover:underline">Crie sua conta</a>.</p>
+    <p class="link-text">Esqueci minha senha? Clique <a href="esqueci_senha.html" class="text-red-400 hover:underline">aqui</a>!</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="img/image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="img/image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" href="../img/favicon.ico">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Recuperação de Senha</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Recuperar Senha</h2>
+        <form action="php/enviar_email.php" method="POST">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required class="imput">
+            <button type="submit">Enviar Link</button>
+        </form>
+    </div>
+</body>
+</html>
